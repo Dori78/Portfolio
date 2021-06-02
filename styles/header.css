@@ -73,10 +73,18 @@ body{
 .heroPreheader, .heroHeader, .heroCtaButton{
     width: 950px;
 }
+#social{
+    display: flex;
+    flex-direction: column;
+    max-width: 15px;
+}
 .socialFollow{
     color: #ffffff;
     font-family: 'Newsreader', serif;
-    
+    transform: rotate(90deg);
+    display: inline-block;
+    width: 100px;
 }
+
 
 
